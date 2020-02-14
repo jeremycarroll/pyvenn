@@ -19,6 +19,6 @@ coordinates best fit for plotting the diagrams' shapes and petals' labels).
 
 This iteration of the library implements two main functions:
 * `venn(dataset_dict, **kwargs)` which plots true Venn diagrams for any number
-of sets between 2 and 5 using ellipses, and for 6 sets using triangles
+of sets between 2 and 5 using ellipses, and for 6 sets using [triangles](https://web.archive.org/web/20040819232503/http://www.hpl.hp.com/techreports/2000/HPL-2000-73.pdf)
 * `pseudovenn(dataset_dict, **kwargs)` which plots a Venn-like intersection of
 six circles (not all intersections are present in such a plot, but many are).
